@@ -95,13 +95,10 @@ def animate(j):                                                                #
         line.set_data(xlist[lnum], ylist[lnum])
     return(line,)
 
-   
-
-
 
 anim= animation.FuncAnimation(fig, animate, init_func=init, frames = 1000, 
                                interval=100, blit = False, repeat=False)
 #anim.save('line.gif', dpi=80, writer='imagemagick')
-
+plt.show()
 
 
