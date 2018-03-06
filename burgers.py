@@ -11,7 +11,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 from matplotlib import animation
-import time
 
 plt.rc('text', usetex=True)
 plt.rc('font', family='serif')
